@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+use CFV\PhalconCli\Application;
+use CFV\PhalconCli\Di;
+use CFV\PhalconCli\Providers\RouteProvider;
+
+require_once 'vendor/autoload.php';
+
+$di = new Di();
+
+$app = new Application($di);
+
+$app->setArgument($argv, true);
+$app->di->register(new RouteProvider());
+
+$app->handle();
+
+print PHP_EOL;

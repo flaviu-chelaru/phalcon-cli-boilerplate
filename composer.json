@@ -1,0 +1,27 @@
+{
+  "name": "cfv1000/phalcon-cli-boilerplate",
+  "authors": [
+    {
+      "name": "Flaviu Chelaru",
+      "email": "flaviu.chelaru@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "phalcon",
+    "cli",
+    "boilerplate"
+  ],
+  "require": {
+    "php": "~7.1",
+    "ext-phalcon": "~3.3"
+  },
+  "require-dev": {
+    "phalcon/ide-stubs": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "CFV\\PhalconCli\\": "src/"
+    }
+  }
+}
