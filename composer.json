@@ -1,16 +1,18 @@
 {
   "name": "cfv1000/phalcon-cli-boilerplate",
+  "description": "A phalcon boilerplate for CLI tools",
+  "keywords": [
+    "phalcon",
+    "cli",
+    "boilerplate"
+  ],
+  "license": "MIT",
   "authors": [
     {
       "name": "Flaviu Chelaru",
       "email": "flaviu.chelaru@gmail.com",
       "role": "Developer"
     }
-  ],
-  "keywords": [
-    "phalcon",
-    "cli",
-    "boilerplate"
   ],
   "require": {
     "php": "~7.1",
@@ -23,5 +25,8 @@
     "psr-4": {
       "CFV\\PhalconCli\\": "src/"
     }
-  }
+  },
+  "bin": [
+    "bin/phalcon"
+  ]
 }

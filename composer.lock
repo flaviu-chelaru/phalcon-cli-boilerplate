@@ -9,16 +9,16 @@
     "packages-dev": [
         {
             "name": "phalcon/ide-stubs",
-            "version": "v3.4.0",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/ide-stubs.git",
-                "reference": "af75e05f8cdcda31ee45145dbd918b8a75ffcce4"
+                "reference": "48e7920621dd2086efe39ab1d52aa9b2e1b8dca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/af75e05f8cdcda31ee45145dbd918b8a75ffcce4",
-                "reference": "af75e05f8cdcda31ee45145dbd918b8a75ffcce4",
+                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/48e7920621dd2086efe39ab1d52aa9b2e1b8dca0",
+                "reference": "48e7920621dd2086efe39ab1d52aa9b2e1b8dca0",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "stub",
                 "stubs"
             ],
-            "time": "2018-05-28T06:20:06+00:00"
+            "time": "2018-09-18T18:54:45+00:00"
         }
     ],
     "aliases": [],
